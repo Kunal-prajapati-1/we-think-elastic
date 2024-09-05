@@ -1045,5 +1045,25 @@ body {
   margin-top: 1%; 
   color: #394346;
 }
+#images {
+  height: 30%;
+  width: 70%;
+  position: relative;
+  /* background-color: #fff; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-image: url(/img/svg1.svg); */
+}
 
+#images img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  scale: 0.6;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
 }
